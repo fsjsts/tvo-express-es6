@@ -5,8 +5,8 @@
   "type": "module",
   "main": "server.ts",
   "scripts": {
-    "build": "npx tsc",
-    "start": "node dist/server.js",
+    "build": "tsc",
+    "start": "ts-node-dev app.ts",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/server.js\""
   },
   "keywords": [],
