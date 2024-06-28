@@ -11,6 +11,14 @@ interface WeatherData {
     time: string;
 }
 const weatherHistory: WeatherData[] = [];
+const welcome: any = ['welcome!'];
+
+// GET all items
+router.get("/", (req: Request, res: Response) => {
+    res.json(welcome);
+});
+
+
 
 // GET all items
 router.get("/weather", (req: Request, res: Response) => {
