@@ -2,6 +2,7 @@
   "name": "TVO Express ES6 TS",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "server.ts",
   "scripts": {
     "build": "npx tsc",
